@@ -1,9 +1,13 @@
 import "./Navbar.css";
 import logo from './assets/logo.png'
+import CartWidget from './components/ItemsListContainer/CartWidget/CartWidget.jsx'
 const Navbar =()=>{
-    return ( <nav>
+    return ( 
+      <header className={StyleSheet.header}>
+        <img src = {logo} alt =""/>
+    <nav>
 
-<img src = {logo} alt =""/>
+
   <ul>
   <li>Inicio </li>
   <li>Servicios </li>
@@ -11,10 +15,14 @@ const Navbar =()=>{
   <li>Contactos </li>
   </ul>
 
-    </nav> )
-
+    </nav>   
+    <CartWidget/>
+    </header>
+  ) 
+  
 
 }
 
 export default Navbar
+
 

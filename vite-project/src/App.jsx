@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './Navbar.jsx'
 import {ItemsListContainer} from './components/ItemsListContainer/ItemsListContainer.jsx'
+import {ItemCount} from './components/ItemsListContainer/ItemCount/ItemCount.jsx'
 
 import Navbar from './Navbar.jsx'
 import logo from './assets/logo.png'
@@ -15,7 +16,9 @@ const App = () => {
 
      <Navbar/>
      <ItemsListContainer greeting =  " Bienvendo a la plataforma "/>
-  </>
+
+   <ItemCount/>
+   </>
   )
 
 }

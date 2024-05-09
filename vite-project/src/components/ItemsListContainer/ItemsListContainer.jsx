@@ -6,12 +6,19 @@ export const ItemsListContainer = (props) => {
     const greeting = " Como estas? , Bienvenido"
     const titulo = "Bienvenidos a mi app de bebidas"
   return (
-    <div>
+    <main>
+    
     <h1>{titulo}</h1>
     <h3>Pagina que va tener control de bebidas</h3>
- 
-    <footer>pie de Pagina</footer>
+    <div>
+    <p>
+      Es una tienda dedicada a la benta de bebida y buen servicio
+      </p>
     </div>
+   
+    <footer>pie de Pagina</footer>
+  
+    </main>
   )
 }
 
